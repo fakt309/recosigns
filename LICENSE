@@ -1,3 +1,8 @@
+Additional restrictions from the author-----------------
+You cannot use the word "premium" in the name of the file with the source code and also indicate the premium level higher than your own.
+For example, you cannot name the file "recosigns.premium.js" if you haven’t paid for the premium, and also you cannot use "recosigns.premiumX5.js" if you only paid for X4.
+--------------------------------------------------------
+
 MIT License
 
 Copyright (c) 2021 fakt309
