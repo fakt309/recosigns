@@ -4,7 +4,7 @@
 **Documentation: https://gaidadei.ru/recosigns/**  
 **Download: https://gaidadei.ru/recosigns/recosigns.zip**  
   
-buy premium: https://gaidadei.ru/premium *(Absolutely no different from the free version, but you have the right to change the file name to "recosigns.premium.js")*  
+buy premium: https://gaidadei.ru/recosigns/premium *(Absolutely no different from the free version, but you have the right to change the file name to "recosigns.premium.js")*  
   
 This JavaScript library is developed to recognize signs entered on the display of a smartphone for websites. You can create signs and process calling them.  
   
