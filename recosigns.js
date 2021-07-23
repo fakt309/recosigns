@@ -1,4 +1,4 @@
-//1.0.0 not premium
+//1.0.1 not premium
 
 function Recognize(signs, dom, action) {
   this.listenDOM = null;
@@ -19,7 +19,7 @@ Recognize.prototype.clearSingns = function() {
   this.signs = [];
 }
 Recognize.prototype.setSingns = function(urls, success, i) {
-  if (typeof urls == "String") { urls = [urls]; }
+  if (typeof urls == "string") { urls = [urls]; }
   if (!i) { i = 0; }
   if (i >= urls.length) {
     if (success) { success(); }
