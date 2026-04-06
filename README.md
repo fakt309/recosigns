@@ -1,26 +1,5 @@
 # Recosigns
 
-**Demo: https://gaidadei.ru/recosigns/demo/**  
-**Documentation: https://gaidadei.ru/recosigns/**  
-**Download: https://gaidadei.ru/recosigns/recosigns.zip**  
-  
-buy premium: https://gaidadei.ru/recosigns/premium *(Absolutely no different from the free version, but you have the right to change the file name to "recosigns.premium.js")*  
-  
-This JavaScript library is developed to recognize signs entered on the display of a smartphone for websites. You can create signs and process calling them.  
-  
-![js library recognise signs smartphone web](https://user-images.githubusercontent.com/43887554/126714472-0a5b5291-aa26-4c81-a8b3-96605f9435dd.gif)
-
-## Quick start
-
-     <script src="https://gaidadei.ru/recosigns/recosigns.js"></script>
-     <script>
-       var touch = new Recognize(["template1.png", "template2.png"], window, function(n) {
-         alert("You entered sign number "+n);
-       });
-     </script>
-
-That's all!!! Your screen will now recognize signs. Let's take a closer look at what we have entered into our object *Recognize*. For the first argument, we added an array with links to signs templates that we'll talk about below. The second argument is the DOM object that you will touch with your finger. The third argument is the function that is executed after any sign has been recognized. The index of this sign is passed to the function, according to the array added in the first argument.
-
 ## Templates
 
 ![js library recognise signs smartphone web](https://user-images.githubusercontent.com/43887554/126716190-364ab335-f33b-4b75-bd6b-a3cc901ba367.png)
